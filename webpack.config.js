@@ -24,11 +24,6 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: '[name].[chunkhash].js'
   },
-  devServer: {
-    contentBase: 'dist',
-    overlay: true,
-    hot: true
-  },
   module: {
     rules: [
       {

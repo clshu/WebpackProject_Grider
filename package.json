@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "serve": "webpack-dev-server",
     "build": "NODE_ENV=production npm run clean && webpack -p",
     "clean": "rimraf dist"
@@ -12,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "faker": "^3.1.0",
     "lodash": "^4.17.2",
     "react": "15.4.1",
